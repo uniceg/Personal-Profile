@@ -1,0 +1,1081 @@
+[00:00:04.669] Server  LOG      ✓ Ready in 3.2s
+[00:00:55.523] Server  LOG      ○ Compiling / ...
+[00:01:00.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:05.732] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:15.870] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:23.796] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:40.223] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:45.444] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:16:38.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:21:51.205] Server  LOG      ✓ Compiled in 246ms
+[02:29:32.909] Server  LOG      ✓ Compiled in 253ms
+[02:29:33.970] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[02:29:34.485] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[02:29:34.852] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:29:35.202] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:29:35.499] Server  LOG      ✓ Compiled in 976ms
+[02:29:52.682] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:29:52.927] Server  LOG      ✓ Compiled in 193ms
+[02:29:53.175] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:33:54.769] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.776] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.783] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.789] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.797] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.803] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.809] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.813] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.821] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.825] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.832] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.840] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.844] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.849] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.853] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.857] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.862] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.869] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.871] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.875] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.881] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.885] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.888] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.892] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.896] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.900] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.905] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.908] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.916] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.920] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.924] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.927] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.934] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.939] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.942] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.945] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:33:54.951] Server  LOG      ✓ Compiled in 281ms
+[02:33:55.775] Browser ERROR   ./app/page.tsx:5:1
+Module not found: Can't resolve './components/Navigation'
+  3 | import { useState, useEffect } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import Navigation from './components/Navigation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function Home() {
+  8 |   const [greeting, setGreeting] = useState({ text: '', emoji: '', bgClass: '', textColor: '' })
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:40:22.255] Server  LOG      ✓ Compiled in 171ms
+[02:40:24.707] Server  LOG      ✓ Compiled in 143ms
+[02:44:35.683] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[02:44:36.434] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[02:44:37.031] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[02:44:37.440] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[02:44:37.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:45:22.149] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[02:45:22.603] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[02:45:23.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:50:37.420] Server  LOG      ✓ Compiled in 253ms
+[02:50:37.776] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [] [false]
+[02:56:32.396] Server  LOG      ✓ Compiled in 177ms
+[02:56:45.895] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:59:52.755] Server  LOG      ✓ Compiled in 331ms
+[03:16:14.989] Server  LOG      ✓ Compiled in 311ms
+[03:25:20.841] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:25:24.464] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:30:48.615] Server  LOG      ✓ Compiled in 260ms
+[03:30:55.079] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:32:01.772] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:35:33.815] Server  LOG      ✓ Compiled in 73ms
+[03:43:27.128] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:43:31.857] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:43:57.963] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:44:06.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:44:50.478] Server  LOG      ✓ Compiled in 283ms
+[03:50:08.259] Server  LOG      ✓ Compiled in 288ms
+[03:50:21.165] Server  LOG      ✓ Compiled in 32ms
+[03:50:22.443] Server  LOG      ✓ Compiled in 60ms
+[03:54:50.295] Server  LOG      ✓ Compiled in 233ms
+[03:56:05.890] Server  LOG      ✓ Compiled in 41ms
+[03:58:13.098] Server  LOG      ✓ Compiled in 354ms
+[03:58:17.226] Server  LOG      ✓ Compiled in 203ms
+[03:58:21.916] Server  LOG      ✓ Compiled in 166ms
+[03:58:30.090] Server  LOG      ✓ Compiled in 154ms
+[03:58:30.771] Browser ERROR   ./app/projects/page.js:17:42
+Parsing ecmascript source code failed
+  15 |     { href: '/profile', label: 'Profile' },
+  16 |     { href: '/projects', label: 'Projects' },
+> 17 |     { href: '/contact', label: 'Contact',' },
+     |                                          ^^^^
+  18 |   ]
+  19 |
+  20 |   const isActive = (path) => pathname === path
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./app/projects/page.js [Client Component Browser]
+    ./app/projects/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/projects/page.js [Client Component SSR]
+    ./app/projects/page.js [Server Component]
+[03:58:30.771] Browser ERROR   ./app/projects/page.js:17:42
+Parsing ecmascript source code failed
+  15 |     { href: '/profile', label: 'Profile' },
+  16 |     { href: '/projects', label: 'Projects' },
+> 17 |     { href: '/contact', label: 'Contact',' },
+     |                                          ^^^^
+  18 |   ]
+  19 |
+  20 |   const isActive = (path) => pathname === path
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./app/projects/page.js [Client Component Browser]
+    ./app/projects/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/projects/page.js [Client Component SSR]
+    ./app/projects/page.js [Server Component]
+[03:58:30.771] Browser ERROR   ./app/projects/page.js:17:42
+Parsing ecmascript source code failed
+  15 |     { href: '/profile', label: 'Profile' },
+  16 |     { href: '/projects', label: 'Projects' },
+> 17 |     { href: '/contact', label: 'Contact',' },
+     |                                          ^^^^
+  18 |   ]
+  19 |
+  20 |   const isActive = (path) => pathname === path
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./app/projects/page.js [Client Component Browser]
+    ./app/projects/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/projects/page.js [Client Component SSR]
+    ./app/projects/page.js [Server Component]
+[03:59:01.188] Server  LOG      ✓ Compiled in 152ms
+[03:59:12.394] Server  LOG      ✓ Compiled in 170ms
+[03:59:23.885] Server  LOG      ✓ Compiled in 195ms
+[03:59:25.282] Server  LOG      ✓ Compiled in 181ms
+[03:59:46.060] Server  LOG      ✓ Compiled in 264ms
+[04:00:14.653] Server  LOG      ✓ Compiled in 166ms
+[04:00:21.528] Server  LOG      ✓ Compiled in 158ms
+[04:00:25.005] Server  LOG      ✓ Compiled in 160ms
+[04:00:30.822] Server  LOG      ✓ Compiled in 177ms
+[04:00:31.769] Browser ERROR   ./app/page.tsx:16:43
+Parsing ecmascript source code failed
+  14 |     { href: '/profile', label: 'Profile' },
+  15 |     { href: '/about', label: 'About Me' },
+> 16 |     { href: '/projects', label: 'Projects'' },
+     |                                           ^^^^
+  17 |     { href: '/contact', label: 'Contact', emoji: '💌' },
+  18 |   ]
+  19 |
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[04:00:31.770] Browser ERROR   ./app/page.tsx:16:43
+Parsing ecmascript source code failed
+  14 |     { href: '/profile', label: 'Profile' },
+  15 |     { href: '/about', label: 'About Me' },
+> 16 |     { href: '/projects', label: 'Projects'' },
+     |                                           ^^^^
+  17 |     { href: '/contact', label: 'Contact', emoji: '💌' },
+  18 |   ]
+  19 |
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[04:00:31.770] Browser ERROR   ./app/page.tsx:16:43
+Parsing ecmascript source code failed
+  14 |     { href: '/profile', label: 'Profile' },
+  15 |     { href: '/about', label: 'About Me' },
+> 16 |     { href: '/projects', label: 'Projects'' },
+     |                                           ^^^^
+  17 |     { href: '/contact', label: 'Contact', emoji: '💌' },
+  18 |   ]
+  19 |
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[04:00:36.373] Server  LOG      ✓ Compiled in 111ms
+[04:01:27.033] Server  LOG      ✓ Compiled in 188ms
+[04:01:39.516] Server  LOG      ✓ Compiled in 262ms
+[04:01:52.443] Server  LOG      ✓ Compiled in 64ms
+[04:03:05.915] Server  LOG      ✓ Compiled in 203ms
+[04:03:12.473] Server  LOG      ✓ Compiled in 223ms
+[04:03:18.580] Server  LOG      ✓ Compiled in 219ms
+[04:03:25.707] Server  LOG      ✓ Compiled in 203ms
+[04:03:29.814] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
